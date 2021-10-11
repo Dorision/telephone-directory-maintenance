@@ -1,0 +1,106 @@
+
+.body{
+    background: #3D6D88;
+    padding : 20px;
+
+
+}
+.error{
+  color : red;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+.space {
+    width:600px !important;
+     margin:100px 0 0 -122px !important;
+     padding: 10px !important;
+
+}
+
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  background: #fff;
+  width: 285px;
+  margin: -140px 0 0 -182px;
+  padding: 40px;
+  color: #000;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.form h2 {
+  margin: 0 0 20px;
+  line-height: 1;
+  color: #3D6D88;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+}
+.fields {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px;
+   justify-content: space-around;
+}
+.form input {
+  outline: none;
+  display: block;
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  color: #000;
+  font-family: "Roboto";
+  box-sizing: border-box;
+  font-size: 14px;
+  resize: vertical;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: 0.2s linear;
+  border-radius: 10px;
+}
+.form inputinput:focus {
+  color: #333;
+  border: 1px solid #44c4e7;
+}
+.form button {
+  cursor: pointer;
+  background: #3D6D88;
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.form button:hover {
+  background: #369cb8;
+}
+
+.focus-input100 {
+  display: block;
+  position: absolute;
+  border-radius: 25px;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px;
+  color: rgba(87,184,70, 0.8);
+}

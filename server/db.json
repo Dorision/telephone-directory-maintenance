@@ -1,0 +1,23 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "admin",
+        "password": "password"
+      }
+    ],
+    "directory": [
+      {
+        "id": 1,
+        "fullname": "Doris Ngoepe",
+        "phonenumber": "0762701174",
+        "email" : "doris@gmail.com"
+      },
+      {
+        "id": 2,
+        "fullname": "KG Ramela",
+        "phonenumber": "0765435676",
+        "email":"dee@gmail.com"
+      }
+    ]
+  }
